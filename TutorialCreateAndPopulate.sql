@@ -11,6 +11,8 @@ IF SERVERPROPERTY('ProductVersion') > '12'
  ALTER DATABASE [TutorialDB] SET QUERY_STORE=ON;
 GO
 
+USE TutorialDB
+GO
 
 -- Create a new table called 'Customers' in schema 'dbo'
 -- Drop the table if it already exists
